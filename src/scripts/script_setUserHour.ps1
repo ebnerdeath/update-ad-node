@@ -3,8 +3,8 @@ Try  {
     Import-Module ActiveDirectory
   }
 
-  $secpasswd = ConvertTo-SecureString "SENHA DO ADMINISTRADOR" -AsPlainText -Force
-  $mycreds = New-Object System.Management.Automation.PSCredential ("USUÁRIO ADMINISTRADOR DO DOMÍNIO", $secpasswd)
+  $secpasswd = ConvertTo-SecureString "!Gan*p0t" -AsPlainText -Force
+  $mycreds = New-Object System.Management.Automation.PSCredential ("administrador", $secpasswd)
 
   ## allow logon 8am - 6pm Monday to Friday
 
